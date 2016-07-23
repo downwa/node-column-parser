@@ -126,7 +126,7 @@ Parsing basically replicates how a human would visually scan a whitespace-delimi
 a starting point for the table columns, and scanning the entire table tells us whether a column is right or left
 aligned.
 
-If the rightmost character in a column header area is always non-blank, as well as the leftmost character,
+If the rightmost character in a row below a column header area is always non-blank, as well as the leftmost character,
 and the one to it's left, then the column is definitely right-aligned (see e.g. VSZ, RSS, and TIME, above).
 
 If there's not enough data to tell, then it doesn't matter (see PID, TT).  In the above example, %CPU and %MEM are
