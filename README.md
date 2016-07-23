@@ -16,6 +16,7 @@ npm install node-column-parser
 ```
 
 * `shellOutput`: the string resulting from running your command
+* `options`: Currently an optional empty object which will contain a headers object on return
 
 ## Usage
 
