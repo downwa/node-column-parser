@@ -12,7 +12,7 @@ npm install node-column-parser
 ## Definition:
 
 ```javascript
-  columnParser(shellOutput);
+  columnParser(shellOutput, options);
 ```
 
 * `shellOutput`: the string resulting from running your command
