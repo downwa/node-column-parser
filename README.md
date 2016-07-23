@@ -1,6 +1,10 @@
 # node-column-parser
 Intended to provide better shell output to Javascript object parsing, turning a whitespace-delimited table (such as ps aux) returns, into an array of Javascript objects, each object keyed on column headers, using row values.
 
+## Credits
+https://github.com/namshi/node-shell-parser/
+for the idea and outline for this README (but not for the implementation).  I tried it first and found it buggy so decided to make a better one from scratch.
+
 ## Install
 
 You can install this library through [NPM](https://www.npmjs.org/package/node-column-parser):
