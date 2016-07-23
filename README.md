@@ -25,7 +25,7 @@ feed it to the parser:
 
 ``` javascript
 
-var columnParser=require("./node-column-parser.js");
+var columnParser=require("node-column-parser");
 
 var util=require('util');
 
